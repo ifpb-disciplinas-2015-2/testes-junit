@@ -27,6 +27,9 @@
     
     <profiles> 
         <profile>
+            <id>dev</id>
+        </profile>
+        <profile>
             <id>jenkins</id>
             <activation>
                 <property>
@@ -46,8 +49,6 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
-            <id>dev</id>
-        </profile>
+        
     </profiles>
 </project>
